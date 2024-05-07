@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.container {
+  margin: 40px 80px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  background-color: rgb(185, 185, 185);
+}
+
+.coluna {
+  text-align: center;
+
+  border: 1px solid gray;
+}
+
+.coluna h2 {
+  border-bottom: 1px solid gray;
+}
+
+.tarefas {
+  padding: 10px 20px 10px 40px;
+  min-height: 300px;
+}
+
+.tarefa {
+  background-color: rgb(209, 209, 209);
+  border: 1px solid gray;
+  padding: 5px 10px;
+  cursor: grab;
+}
+
+.drag {
+  background-color: rgb(166, 166, 166);
+}

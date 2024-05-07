@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testes</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="coluna">
+        <h2>A fazer</h2>
+        <div class="tarefas" id="a_fazer"></div>
+      </div>
+      <div class="coluna">
+        <h2>Fazendo</h2>
+        <div class="tarefas" id="fazendo"></div>
+      </div>
+      <div class="coluna">
+        <h2>Concluída</h2>
+        <div class="tarefas" id="concluida"></div>
+      </div>
+    </div>
+    <div>
+      <label for="tarefa">Tarefa: </label>
+      <input
+        type="text"
+        name="tarefa"
+        id="nova_tarefa_input"
+        placeholder="Digite uma tarefa..." />
+      <button type="submit" id="nova_tarefa_botao">Enviar</button>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
